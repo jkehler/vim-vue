@@ -16,11 +16,7 @@ endfunction
 " The order is important here, tags without attributes go last.
 " HTML is left out, it will be used when there is no match.
 let s:languages = [
-      \   { 'name': 'pug', 'pairs': ['<template lang="pug"', '</template>'] },
-      \   { 'name': 'stylus', 'pairs': ['<style lang="stylus"', '</style>'] },
       \   { 'name': 'css', 'pairs': ['<style', '</style>'] },
-      \   { 'name': 'coffee', 'pairs': ['<script lang="coffee"', '</script>'] },
-      \   { 'name': 'javascript', 'pairs': ['<script', '</script>'] },
       \ ]
 
 for s:language in s:languages
